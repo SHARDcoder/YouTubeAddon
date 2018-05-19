@@ -1,4 +1,4 @@
-group 'com.example'
+group 'net.youtubeaddon'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -36,4 +36,5 @@ repositories {
 
 dependencies {
      compile 'com.github.HyperiumClient:Hyperium:master-SNAPSHOT'
+    compile group: 'com.google.apis', name: 'google-api-services-youtube', version: 'v3-rev125-1.19.1'
 }
