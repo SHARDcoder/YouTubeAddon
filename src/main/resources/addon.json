@@ -1,0 +1,5 @@
+{
+  "name":"YouTube Addon",
+  "version":"Dev 0.0.1",
+  "mainClass":"addon.youtube.YouTubeAddon.YouTubeAddon"
+}
