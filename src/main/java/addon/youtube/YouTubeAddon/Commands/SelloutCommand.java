@@ -31,9 +31,6 @@ public class SelloutCommand implements BaseCommand {
                     Hyperium.INSTANCE.getNotification().display("Subscribe to ".concat(ChatColor.translateAlternateColorCodes('&', "&6&l").concat(SelloutAddon.getChannelName())), "\nYouTube Addon\n   Chachy & SHARDcoder", 10);
                 }
             } else if (args.length == 1) {
-                if (args[0].equalsIgnoreCase("help")) {
-                    Hyperium.INSTANCE.getHandlers().getGeneralChatHandler().sendMessage("first you kick it in kanto\nthen you head to johto");
-                }
             } else if (args.length == 2) {
                 if (args[0].equalsIgnoreCase("set")) {
                     SelloutAddon.channelName = args[1];

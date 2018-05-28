@@ -67,9 +67,6 @@ public class YouTubeCommand implements BaseCommand {
                    Hyperium.INSTANCE.getNotification().display("Subscribe to ".concat(ChatColor.translateAlternateColorCodes('&', "&6&l").concat(SelloutAddon.getChannelName())), "\nYouTube Addon\n    Chachy & SHARDcoder", 10);
                 }
             } else if (args.length == 2) {
-                if (args[1].equalsIgnoreCase("help")) {
-                    Hyperium.INSTANCE.getHandlers().getGeneralChatHandler().sendMessage(ChatColor.translateAlternateColorCodes('&', "&6[&4Y&fT&0A&6] &f").concat("onlyCommand is set to false"), false);
-                }
             } else if (args.length == 3) {
                 if (args[1].equalsIgnoreCase("set")) {
                     SelloutAddon.channelName = args[2];
